@@ -1,0 +1,43 @@
+body {
+	font-family: Arial;
+	padding: 20px;
+	line-height: 1.6;
+}
+
+/* Выравнивания */
+.right { text-align: right; }
+.center { text-align: center; }
+.justify { text-align: justify; }
+
+/* Красная строка */
+.indent { text-indent: 50px; }
+
+/* Шрифт и размер */
+.big {
+	font-size: 18px;
+	line-height: 28px;
+}
+
+/* Таблица */
+table.data {
+	width: 400px;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+table.data th,
+table.data td {
+	border: 1px solid #000;
+	padding: 8px;
+}
+
+table.data th {
+	text-align: left;
+	background: #eee;
+}
+
+/* Ссылки */
+.nolink {
+	text-decoration: none;
+	color: blue;
+}
